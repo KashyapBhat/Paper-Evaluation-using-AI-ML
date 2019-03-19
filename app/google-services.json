@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "648665331506",
+    "firebase_url": "https://aeptextrecognition.firebaseio.com",
+    "project_id": "aeptextrecognition",
+    "storage_bucket": "aeptextrecognition.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648665331506:android:1fd86d712b0599f3",
+        "android_client_info": {
+          "package_name": "kashyapbhat.in.aep"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648665331506-soqb6o3kfpp3fili4utnac6jg8sm7h3j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKNipizWPP5j9muOJKC5FPNTruI1nfJ-Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

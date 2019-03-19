@@ -1,1 +1,1 @@
-# AutomatedPaperEvaluation
+Project AEP

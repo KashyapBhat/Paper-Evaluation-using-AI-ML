@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_instructor"
+    tools:context=".Instructor.InstructorActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:minHeight="40dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Questions Here"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/toolbar_top">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <Button
+        android:id="@+id/buttonText"
+        android:background="@drawable/button_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:text="Add text Book Picture" />
+
+
+    <EditText
+        android:id="@+id/editqno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonText"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:autofillHints=""
+        android:hint="Question Number"
+        android:inputType="number"
+        android:maxLength="2000"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editques"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editqno"
+        android:layout_margin="10dp"
+        android:hint="Question"
+        android:maxLength="2000"
+        android:padding="10dp"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/editkey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editques"
+        android:layout_margin="10dp"
+        android:hint="Keywords"
+        android:maxLength="2000"
+        android:padding="10dp"
+        android:autofillHints="" />
+
+
+    <EditText
+        android:id="@+id/edittot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editkey"
+        android:layout_margin="10dp"
+        android:hint="Total Marks"
+        android:inputType="number"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/editTextBook"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="left"
+        android:layout_margin="10dp"
+        android:layout_below="@+id/edittot"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="16sp"
+        android:maxLength="2000"
+        android:hint="Click 'ADD TEXT BOOK PICTURE' button take the picture of text and then, click on Share button and Choose Share with 'AEP Instructor' app. \n \nBy doing this text will be automatically added here."
+        android:background="@drawable/rounded_edittext"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/buttonDoneInstructor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextBook"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_red"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white"
+        android:text="Done" />
+
+            <ImageView
+                android:id="@+id/resultImage"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:contentDescription="Text Image" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
