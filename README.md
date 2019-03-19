@@ -12,10 +12,10 @@ Well if you are a beginner, Install Android studio, Clone this project directly 
 
 ## Built With
 
-* [butterknife](https://github.com/JakeWharton/butterknife) - For binding Android views
-* [retrofit](https://github.com/square/retrofit) - Retrofit for network calls
-* [dexter](https://github.com/Karumi/Dexter) - Used for Permissions handling
-* [piccasso](https://github.com/square/picasso) - Used for images
+* [Butterknife](https://github.com/JakeWharton/butterknife) - For binding Android views
+* [Retrofit](https://github.com/square/retrofit) - Retrofit for network calls
+* [Dexter](https://github.com/Karumi/Dexter) - Used for Permissions handling
+* [Piccasso](https://github.com/square/picasso) - Used for images
 
 ## License
 
