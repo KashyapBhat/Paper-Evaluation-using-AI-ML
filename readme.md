@@ -10,12 +10,12 @@ By this project they can make use of thier time more efficiently and focus on te
 
 This is an application in development to help lecturers evaluate papers using power of 
 
-*Python
-*Machine Learning
-*Java
-*Android
-*JavaScript
-*SQL
+* Python
+* Machine Learning
+* Java
+* Android
+* JavaScript
+* SQL
 
 Thanks you for the creators/contributors of these languages you made our work efficient.
 
