@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>AEIP</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">AEIP</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+             <li class="nav-item"><a href="instructor.html" class="nav-link">Instructor</a></li>
+            <li class="nav-item"><a href="evaluation.html" class="nav-link">Evaluation</a></li>
+            <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+            <!--<li class="nav-item"><a href="blog.html" class="nav-link"></a></li>-->
+            <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+
+    <div class="hero-wrap" style="background-image: url('images/bg_1.jpg');">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row no-gutters slider-text d-flex align-itemd-end justify-content-center">
+          <div class="col-md-9 ftco-animate text-center d-flex align-items-end justify-content-center">
+            <div class="text">
+              <p class="breadcrumbs mb-2"><span class="mr-2"><a href="index.html">Home</a></span> <span>Instructor</span></p>
+              <h1 class="mb-4 bread">Instructor</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="ftco-booking bg-light">
+      <div class="container">
+        
+        <br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section text-center ftco-animate">
+            <h2 class="mb-4">Add the Questions with Key answers</h2>
+          </div>
+        </div>
+        <br>
+        <div align="text-center">
+          <form action="clear.php" method="post"><center>
+            <input type="submit" class="btn btn-primary py-3 px-4 align-self-stretch" value="Clear all previous data.">
+            </center>
+          </form>
+          <br><br><br>
+        </div> 
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="upload.php" method="post" enctype="multipart/form-data" class="booking-form">
+              <div class="row">
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Question 1</label>
+                       <input type="hidden" name="quesnop" id="quesno1" value="1">
+                      <input type="text" name="quesp" id="ques1" class="form-control" placeholder="1">
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Keywords</label>
+                      <input type="text" name="keywp" id="keyw1" class="form-control" placeholder="Answer">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Marks</label>
+                      <input type="text" name="tmarksp" id="tmarks1" class="form-control" placeholder="Marks">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Text Book</label>
+                      <input type="file" name="textp[]" id="text1" class="form-inline,form-control"  accept="image/*" multiple/>
+                  </div>
+                  </div>
+                </div>
+                
+                <div class="col-md d-fle">
+                  <div class="form-group d-flex align-self-stretch">
+                  </div>          
+        <br>
+                    <input type="submit" name="submit1" value="Add the Question" class="btn btn-primary py-3 px-4 align-self-stretch">
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div><br>
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="upload.php" method="post" enctype="multipart/form-data"class="booking-form">
+              <div class="row">
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Question 2</label>
+                       <input type="hidden" name="quesnop" id="quesno1" value="2">
+                      <input type="text" name="quesp" id="ques2" class="form-control" placeholder="2">
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Keywords</label>
+                      <input type="text" name="keywp" id="keyw2" class="form-control" placeholder="Answer">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Marks</label>
+                      <input type="text" name="tmarksp" id="tmarks2" class="form-control" placeholder="Marks">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Text Book</label>
+                      <input type="file" name="textp[]" id="text2" class="form-inline,form-control"  accept="image/*" multiple/>
+                  </div>
+                  </div>
+                </div>
+                
+                <div class="col-md d-fle">
+                  <div class="form-group d-flex align-self-stretch">
+                  </div>
+        <br>
+                    <input type="submit" name="submit2" value="Add the Question" class="btn btn-primary py-3 px-4 align-self-stretch">
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="upload.php" method="post" enctype="multipart/form-data" class="booking-form">
+              <div class="row">
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Question 3</label>
+                       <input type="hidden" name="quesnop" id="quesno1" value="3">
+                      <input type="text" name="quesp" id="ques3" class="form-control" placeholder="3">
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Keywords</label>
+                      <input type="text" name="keywp" id="keyw3" class="form-control" placeholder="Answer">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Marks</label>
+                      <input type="text" name="tmarksp" id="tmarks3" class="form-control" placeholder="Marks">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Text Book</label>
+                      <input type="file" name="textp[]" id="text3" class="form-inline,form-control"  accept="image/*" multiple/>
+                  </div>
+                  </div>
+                </div>
+                
+                <div class="col-md d-fle">
+                  <div class="form-group d-flex align-self-stretch">
+                  </div>
+        <br>
+                    <input type="submit" name="submit3" value="Add the Question" class="btn btn-primary py-3 px-4 align-self-stretch">
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+                  <br>
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="upload.php" method="post" enctype="multipart/form-data" class="booking-form">
+              <div class="row">
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Question 4</label>
+                       <input type="hidden" name="quesnop" id="quesno1" value="4">
+                      <input type="text" name="quesp" id="ques4" class="form-control" placeholder="4">
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Keywords</label>
+                      <input type="text" name="keywp" id="keyw4" class="form-control" placeholder="Answer">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Marks</label>
+                      <input type="text" name="tmarksp" id="tmarks4" class="form-control" placeholder="Marks">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Text Book</label>
+                      <input type="file" name="textp[]" id="text4" class="form-inline,form-control"  accept="image/*" multiple/>
+                  </div>
+                  </div>
+                </div>
+                
+                <div class="col-md d-fle">
+                  <div class="form-group d-flex align-self-stretch">
+                  </div>
+        <br>
+                    <input type="submit" name="submit4" value="Add the Question" class="btn btn-primary py-3 px-4 align-self-stretch">
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+                  <br>
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="upload.php" method="post" enctype="multipart/form-data" class="booking-form">
+              <div class="row">
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Question 5</label>
+                       <input type="hidden" name="quesnop" id="quesno1" value="5">
+                      <input type="text" name="quesp" id="ques5" class="form-control" placeholder="5">
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Keywords</label>
+                      <input type="text" name="keywp" id="keyw5" class="form-control" placeholder="Answer">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Marks</label>
+                      <input type="text" name="tmarksp" id="tmarks5" class="form-control" placeholder="Marks">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Text Book</label>
+                      <input type="file" name="textp[]" id="text5" class="form-inline,form-control"  accept="image/*" multiple/>
+                  </div>
+                  </div>
+                </div>
+                
+                <div class="col-md d-fle">
+                  <div class="form-group d-flex align-self-stretch">
+                  </div>
+        <br>
+                    <input type="submit" name="submit5" value="Add the Question" class="btn btn-primary py-3 px-4 align-self-stretch">
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+                  <br>
+        <div class="row">
+          <div class="col-lg-12">
+            <form action="upload.php" method="post" enctype="multipart/form-data" class="booking-form">
+              <div class="row">
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Question 6</label>
+                       <input type="hidden" name="quesnop" id="quesno1" value="6">
+                      <input type="text" name="quesp" id="ques6" class="form-control" placeholder="6">
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Keywords</label>
+                      <input type="text" name="keywp" id="keyw6" class="form-control" placeholder="Answer">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Marks</label>
+                      <input type="text" name="tmarksp" id="tmarks6" class="form-control" placeholder="Marks">
+                  </div>
+                  </div>
+                </div>
+                <div class="col-md-3 d-flex">
+                  <div class="form-group p-4 align-self-stretch d-flex align-items-end">
+                    <div class="wrap">
+                      <label for="#">Text Book</label>
+                      <input type="file" name="textp[]" id="text6" class="form-inline,form-control"  accept="image/*" multiple/>
+                  </div>
+                  </div>
+                </div>
+                
+                <div class="col-md d-fle">
+                  <div class="form-group d-flex align-self-stretch">
+                  </div>
+                  <br>
+                    <input type="submit" name="submit5" value="Add the Question" class="btn btn-primary py-3 px-4 align-self-stretch">
+                  </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <br>
+      </div>
+    </section>
+    <footer class="ftco-footer ftco-bg-dark ftco-section">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Automated Evaluation Platform</h2>
+              
+              <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-5">
+                <li class="ftco-animate"><a href="https://twitter.com/bobbikashyap"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.facebook.com/kashibobbi"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="https://www.instagram.com/mr__bhat/"><span class="icon-instagram"></span></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4 ml-md-5">
+              <h2 class="ftco-heading-2">Useful Links</h2>
+              <ul class="list-unstyled">
+                <li><a href="instructor.html" class="py-2 d-block">Instructor</a></li>
+                <li><a href="evaluation.html" class="py-2 d-block">Evaluation</a></li>
+                
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+             <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Privacy</h2>
+              <ul class="list-unstyled">
+          
+                <li><a href="about.html" class="py-2 d-block">About Us</a></li>
+                <li><a href="contact.html" class="py-2 d-block">Contact Us</a></li>
+
+              </ul>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li><span class="icon icon-map-marker"></span><span class="text"> Mangalore, Karnataka, INDIA</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 948 321 4259</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">kashyapbhat1@gmail.com</span></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved, Team AEIP | This template is made with <i class="icon-heart color-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  
+    
+  
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/jquery.timepicker.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+    
+  </body>
+</html>
