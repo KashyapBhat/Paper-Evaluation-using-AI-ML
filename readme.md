@@ -12,14 +12,16 @@ By this project they can make use of thier time more efficiently and focus on te
 
 This is an application in development to help lecturers evaluate papers using power of 
 
-* Python
-* Machine Learning
-* Java
-* Android
-* JavaScript
-* SQL
 
-Thanks you for the creators/contributors of these languages you made our work efficient.
+## Which technologies?
+
+* **Machine Learning:** [Image Processing - Tessaract OCR](https://github.com/tesseract-ocr/tesseract)[NLTK](https://www.nltk.org/)
+* **Front-end Android :** *Java / Kotlin*
+* **Front-end WEB :** *Java Script*
+* **Back-end API:** *Python*
+* **Database**: *SQL* 
+
+Thanks you for the creators/contributors of these libraries, you made our work efficient.
 
 ### Prerequisites
 
