@@ -2,11 +2,11 @@
 
 A machine learning project to help teachers/lecturers/professors to evaluate examination papers using optical character recognition to extract text from written answers, natural language processing to check similarities with the actual answer, grammar and other criteria's to allocate grades to the students.
 
-Provided interface to input student answer sheets and get progress reports for each individual students in the end.
+* This project provides interface to input student answer sheets and get progress reports for each individual students in the end. Calculates the grades and reports internally.
 
-As there will be 60 students in a class and every month there will be exams and most of the lecturere's times goes on evaluation of papers.
+* As there will be n students in a class and every month there will be exams and most of the lecturere's times goes on evaluation of papers.
 
-By this project they can make use of thier time more efficiently and focus on teaching and mentoring the students more. 
+* By this project they can make use of thier time more efficiently and focus on teaching and mentoring the students more. 
 
 ## Which technologies?
 
