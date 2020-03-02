@@ -15,7 +15,7 @@ This is an application in development to help lecturers evaluate papers using po
 
 ## Which technologies?
 
-* **Machine Learning:** [Image Processing - Tessaract OCR](https://github.com/tesseract-ocr/tesseract), [NLTK](https://www.nltk.org/)
+* **Machine Learning:** [Image Processing - Tessaract OCR](https://github.com/tesseract-ocr/tesseract), [Natural Language Toolkit](https://www.nltk.org/)
 * **Front-end Android :** *Java, Kotlin*
 * **Front-end WEB :** *JavaScript*
 * **Back-end API:** *Python*
