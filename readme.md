@@ -8,11 +8,6 @@ As there will be 60 students in a class and every month there will be exams and 
 
 By this project they can make use of thier time more efficiently and focus on teaching and mentoring the students more. 
 
-## Getting Started
-
-This is an application in development to help lecturers evaluate papers using power of 
-
-
 ## Which technologies?
 
 * **Machine Learning:** [Image Processing: Tessaract OCR](https://github.com/tesseract-ocr/tesseract), [Natural Language Processing: NLTK](https://www.nltk.org/)
