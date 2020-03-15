@@ -18,16 +18,15 @@ A machine learning project to help teachers/lecturers/professors to evaluate exa
 
 Thanks you for the creators/contributors of these libraries, you made our work efficient.
 
-### Prerequisites
-
-You might have to install mainly android studio for android, vscode for webApp, anaconda for python and many libraries (by pip3 install library_name) for the execution of this project.
-
-
 Usage
 -----
 
 ```
-
+You might have to install Anaconda for python. 
+Respective python libraries specified in requirements.txt file.
+Android Studio for Android.
+VScode for Web App.
+MySQL for DataBase.
 ```
 
 License
