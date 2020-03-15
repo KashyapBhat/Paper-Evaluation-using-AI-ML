@@ -10,7 +10,7 @@ A machine learning project to help teachers/lecturers/professors to evaluate exa
 
 ## Which technologies?
 
-* **Machine Learning:** Image Processing: [Tessaract OCR](https://github.com/tesseract-ocr/tesseract), Natural Language Processing:[NLTK](https://www.nltk.org/)
+* **Machine Learning:** Image Processing: [Tessaract OCR](https://github.com/tesseract-ocr/tesseract), Natural Language Processing: [NLTK](https://www.nltk.org/)
 * **Front-end Android :** *Java, Kotlin*
 * **Front-end WEB :** *JavaScript*
 * **Back-end API:** *Python*
