@@ -8,16 +8,6 @@ A machine learning project to help teachers/lecturers/professors to evaluate exa
 
 * By this project they can make use of thier time more efficiently and focus on teaching and mentoring the students more. 
 
-## Which technologies?
-
-* **Machine Learning:** Image Processing: [Tessaract OCR](https://github.com/tesseract-ocr/tesseract), Natural Language Processing: [NLTK](https://www.nltk.org/)
-* **Front-end Android :** *Java, Kotlin*
-* **Front-end WEB :** *JavaScript*
-* **Back-end API:** *Python*
-* **Database**: *SQL* 
-
-Thanks you for the creators/contributors of these libraries, you made our work efficient.
-
 Usage
 -----
 
@@ -28,6 +18,18 @@ Android Studio for Android.
 VScode for Web App.
 MySQL for DataBase.
 ```
+
+## Which technologies?
+
+* **Machine Learning:** Image Processing: [Tessaract OCR](https://github.com/tesseract-ocr/tesseract), Natural Language Processing: [NLTK](https://www.nltk.org/)
+* **Front-end Android :** *Java, Kotlin*
+* **Front-end WEB :** *JavaScript*
+* **Back-end API:** *Python*
+* **Database**: *SQL* 
+
+Thanks you for the creators/contributors of these libraries, you made our work efficient.
+
+
 
 License
 =======
