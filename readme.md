@@ -7,6 +7,11 @@ A machine learning project to help teachers/lecturers/professors to evaluate exa
 * As there will be n students in a class and every month there will be exams and most of the lecturere's times goes on evaluation of papers.
 
 * By this project they can make use of thier time more efficiently and focus on teaching and mentoring the students more. 
+## Screenshots:
+
+<div align="center">
+ <img title="1" src="design.png" height="490" width="890" title>
+</div>
 
 Usage
 -----
