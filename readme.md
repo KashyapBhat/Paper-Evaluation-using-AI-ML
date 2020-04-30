@@ -1,4 +1,5 @@
 # Automated Paper Evaluation
+[![version](https://img.shields.io/badge/version-1.0.1-yellow.svg)]()
 
 A machine learning project to help teachers/lecturers/professors to evaluate examination papers using optical character recognition to extract text from written answers, natural language processing to check similarities with the actual answer, grammar and other criteria's to allocate grades to the students.
 
