@@ -13,7 +13,7 @@ A machine learning project to help teachers/lecturers/professors to evaluate exa
 ## System Design:
 
 <div align="center">
- <img title="Design" src="design.PNG" height="400" width="800" title>
+ <img title="Design" src="design.PNG" height="300" width="700" title>
  <br>
  <br>
  <img title="2" src="Sequence Diagram.PNG" height="700" width="700" title>
