@@ -10,8 +10,8 @@ A machine learning project to help teachers/lecturers/professors to evaluate exa
 ## Screenshots:
 
 <div align="center">
- <img title="1" src="Sequence Diagram.PNG" height="890" width="890" title>
- <img title="2" src="design.PNG" height="490" width="890" title>
+ <img title="1" src="design.PNG" height="490" width="490" title>
+ <img title="2" src="Sequence Diagram.PNG" height="700" width="700" title>
 </div>
 
 Usage
